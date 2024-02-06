@@ -1,0 +1,116 @@
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: Column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 800px;
+  
+  }
+
+  .logo-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-left: 150px;
+    
+  }
+
+  .logo-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    
+  }
+
+  .logo-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    
+  }
+
+
+  
+  .logo-img-react {
+    height: 170px;
+    animation: App-logo-spin infinite 20s linear;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .logo-img-flask {
+    height: 170px;
+    animation: flask-logo-pulse 2s infinite alternate;
+  }
+  
+  @keyframes flask-logo-pulse {
+    0% {
+      transform: scale(.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .App-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 800px;
+  }
+  
+  
+  .App-link {
+    color: #61DAFB;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #61DAFB;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  .App-link:hover {
+    background-color: #61DAFB;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  
+ 
+  .App-description {
+    margin-top: 20px; /* or any other value you prefer */
+    text-align: center;
+    color: #ffffff; /* assuming you want the text color to be white */
+    max-width: 800px; /* or any other value you prefer */
+    margin-left: auto; /* centers the div if the width is less than 100% */
+    margin-right: auto; /* centers the div if the width is less than 100% */
+  }
+  
