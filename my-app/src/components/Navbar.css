@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    color: white;
+    border-bottom: 1px solid white;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+
+  }
+  
+  .navbar-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #61DAFB;
+  }
+  
+  .active-link {
+    border-bottom: 2px solid white;
+  }
+  

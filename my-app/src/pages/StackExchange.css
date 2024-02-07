@@ -1,3 +1,8 @@
+.title-api {
+    color: white;
+    text-align: center;
+}
+
 .stack-section {
     background-color: #282c34;
 }
@@ -50,4 +55,106 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
+
+  /* table */
+
+  /* Add these styles to your existing CSS */
+
+/* Table styles */
+
+.table-section{
+    margin-bottom: 50px;
+
+}
+
+table {
+    width: 90%;
+    margin-bottom: 0 auto;
+    border-collapse: collapse;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+
+  }
+  
+  thead th {
+    background-color: #282c34;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  thead th:hover {
+    background-color: #555;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Apply similar styles to your existing classes */
+  .title-api {
+    color: white;
+    text-align: center;
+  }
+  
+  .stack-section {
+    background-color: #282c34;
+  }
+  
+  .question-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    height: 320px;
+    background-color: #e4e4e4;
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .answer {
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  
+  .error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  

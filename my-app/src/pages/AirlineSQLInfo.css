@@ -1,0 +1,48 @@
+/* Airline SQL Info specific styles */
+
+.airline-sql-section {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content;
+  }
+  
+  .sql-question-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sql-question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width: 300px;
+    background-color: #e4e4e4;
+    color: black;
+  }
+  
+  .sql-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .sql-answer {
+    background-color: white;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  

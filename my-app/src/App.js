@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import StackExchange from './pages/StackExchange';
 import AirlineSQLInfo from './pages/AirlineSQLInfo';
